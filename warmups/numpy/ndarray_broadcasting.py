@@ -19,3 +19,10 @@ print(y)
 ones = np.array([1])
 y=start+ones
 print(y)
+
+a = np.array([[0,0],[0,0]])
+b1 = np.array([1,1])
+b2 = 1
+
+print(a+b1)
+print(a+b2)
