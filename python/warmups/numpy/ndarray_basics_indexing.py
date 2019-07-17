@@ -63,7 +63,7 @@ col_indices = np.array([0,1,2])
 #the arange method is used to add values into the array. 
 #it works similar to the python range function
 row_indices = np.arange(3)
-
+print(row_indices)
 for row,col in zip(col_indices,row_indices):
     print(row," , ",col)
 
