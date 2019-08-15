@@ -1,0 +1,11 @@
+Rule-1: These columns should neither be empty nor should they contain invalid arguments(???, ??)
+        ['dataTagId','description','system' ,'systemName' ,'equipment', 'equipmentName','equipmentInstance','measureType','measureInstance']
+Rule-2: For each equipmentName - Unique number of equipment and equipmentInstance should be 1
+Rule-3: For each componentName - Unique number of component and componentInstance should be 1
+Rule-4: For each subcomponentName - Unique number of subcomponent and subcomponentInstance should be 1
+Rule-5: For each measureLocationName - Unique number of measureLocation and measureLocationInstance should be 1
+Rule-6: Duplicate taglist check - No two rows should have same values in the following columns                
+        ['system' ,'systemName' ,'equipment', 'equipmentType', 'equipmentName','equipmentInstance', 'component', 'componentName', 'componentInstance', 'subcomponent', 'subcomponentName', 'subcomponentInstance', 'measureLocation', 'measureLocationName', 'measureLocationInstance', 'measureProperty', 'measureType','measureInstance', 'measureUnit', 'tagType']
+Rule-7: Check if the measureType is in the approved list
+Rule-8: For a measureType check if measureUnit is in the approved list.
+Rule-9: DatatagId should be unique
