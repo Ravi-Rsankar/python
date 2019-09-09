@@ -43,7 +43,6 @@ for eq in equnique:
         post_url = cfg + '/equipment'
         post_req = requests.post(post_url, data=data)
         print(post_req.content)
-
     else:
         # UPDATE
         row=eqsub.loc[eqsub['equipmentName'] == eq]
