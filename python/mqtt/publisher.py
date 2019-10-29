@@ -42,8 +42,5 @@ print("Publishing message to topic","viz/request")
 res = client.publish("viz/request",json.dumps(query))
 print(res)
 
-res2 = client.publish("viz/request",json.dumps(query))
-print(res2)
 time.sleep(4) # wait
-
-client.loop_stop() #stop the loop
+client.disconnect() #disconnect publisher
