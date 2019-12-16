@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import time
 import json
 
-broker_address="172.31.1.164"
+broker_address="<BROKER_IP>"
 #broker_address="iot.eclipse.org"
 print("creating new instance")
 client = mqtt.Client("P2") #create new instance
