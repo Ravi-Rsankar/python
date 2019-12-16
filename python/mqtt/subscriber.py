@@ -18,7 +18,7 @@ def on_log(client, userdata, obj, buff):
     #print("log: " + str(buff))
 
 
-broker_address="172.31.1.164"
+broker_address="<BROKER_IP>"
 #broker_address="iot.eclipse.org"
 print("creating new instance")
 client = mqtt.Client("P1") #create new instance
